@@ -1,16 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Door from "./door"
 
 export default function App() {
   return (
-    <View style={styles.container}> 
-       <Door/>
-      <Text>Open up App.js to start working on your app!</Text>
+    <View style={styles.container}>
+      <Text>hello!</Text>
       <StatusBar style="auto" />
-     
     </View>
-
   );
 }
 
