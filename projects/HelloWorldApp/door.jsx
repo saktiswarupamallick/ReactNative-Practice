@@ -5,8 +5,7 @@ export default function door(props) {
   const {color} = props
   return (
     <View style={styles.container}>
-      <Text style={{color: color}}>hello my name is sakti!</Text>
-      <StatusBar style="auto" />
+      
     </View>
   );
 }
