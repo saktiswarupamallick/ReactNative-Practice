@@ -5,6 +5,8 @@ export default function door(props) {
   const {color} = props
   return (
     <View style={styles.container}>
+      <View style={styles.row}/>
+
       
     </View>
   );
@@ -17,4 +19,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  row:{
+    backgroundColor:'red',
+    width:100,
+    height:100
+
+  }
 });
