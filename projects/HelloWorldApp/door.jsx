@@ -7,7 +7,7 @@ export default function door(props) {
     <View style={styles.container}>
       <View style={styles.row}/>
       <View style={styles.row}/>    
-      
+      <View style={styles.row}/>
     </View>
   );
 }
