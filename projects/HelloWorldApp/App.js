@@ -1,14 +1,16 @@
+//npx expo start --tunnel
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View,Button} from 'react-native';
 import Door from "./door"
 
 export default function App() {
+  const handlepress =()=>{
+    console.log("fdkjh")
+  }
   return (
-    <View style={styles.container}> 
-       <Door color="red" width={20}/>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-     
+    <View style={styles.container}>
+      <Button title="press me" onPress={handlepress} ></Button>
+
     </View>
 
   );
